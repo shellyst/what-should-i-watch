@@ -1,1 +1,5 @@
 # what-should-i-watch
+
+## As a MOVIE VIEWER, I want to SEARCH FOR A FILM BY TITLE OR GENRE so that I can FIND A PLACE TO STREAM THE MOVIE I WANT TO WATCH.
+
+##
