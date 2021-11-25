@@ -1,0 +1,71 @@
+body {
+  color: black;
+}
+.container {
+  text-align: center;
+}
+
+.site-name {
+  font-size: 50px;
+}
+
+.site-info {
+  font-size: 20px;
+}
+
+.movie-input {
+  font-size: 20px;
+  width: 20%;
+}
+
+.btn {
+  font-size: 20px;
+  background-color: lightcoral;
+  border: none;
+  border-radius: 0.3rem;
+}
+.btn:hover {
+  background-color: #ed6969;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.img {
+  padding: 0 150px 0 150px;
+  opacity: 0.5;
+}
+
+.img:hover {
+  opacity: 1;
+}
+
+.movies {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 50% 0 50%;
+}
+
+.movie-name {
+  text-align: center;
+}
+
+.movie-type {
+  text-align: center;
+}
+
+.movie-role {
+  text-align: center;
+}
+.movie-bio {
+  margin: 10px;
+}
+
+footer {
+  background: #ed6969;
+  padding: 10px 5px;
+
+  width: 100%;
+  text-align: center;
+}
