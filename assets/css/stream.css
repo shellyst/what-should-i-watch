@@ -1,5 +1,5 @@
 :root {
-  --main-font: "Passion One", cursive;
+  --main-font: "Fjalla One", sans-serif;
   --body-font: "Source Sans Pro", sans-serif;
 }
 
@@ -97,4 +97,15 @@ footer {
 
 /*Mobile Responsiveness*/
 @media screen and (max-width: 575px) {
+  .site-name {
+    width: 95%;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  input {
+    width: 80%;
+  }
 }
