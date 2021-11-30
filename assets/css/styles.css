@@ -65,7 +65,8 @@ body {
 footer {
   background: #ed6969;
   padding: 10px 5px;
-
+  position: fixed;
+  bottom: 0;
   width: 100%;
   text-align: center;
 }
