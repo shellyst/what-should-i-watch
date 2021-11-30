@@ -1,0 +1,95 @@
+:root {
+  --main-font: "Passion One", cursive;
+  --body-font: "Source Sans Pro", sans-serif;
+}
+
+body {
+  color: black;
+}
+
+h1,
+h2 {
+  font-family: var(--main-font);
+}
+
+p {
+  font-family: var(--body-font);
+}
+
+.container {
+  text-align: center;
+}
+
+.site-name {
+  font-size: 50px;
+}
+
+.site-info {
+  font-size: 20px;
+}
+
+.movie-input {
+  font-size: 20px;
+  width: 20%;
+}
+
+.btn {
+  font-size: 20px;
+  background-color: lightcoral;
+  border: none;
+  border-radius: 0.3rem;
+}
+.btn:hover {
+  background-color: #ed6969;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.img {
+  padding: 0 150px 0 150px;
+  opacity: 0.5;
+}
+
+.img:hover {
+  opacity: 1;
+}
+
+.movies {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 50% 0 50%;
+}
+
+.movie-name {
+  text-align: center;
+}
+
+.movie-type {
+  text-align: center;
+}
+
+.movie-role {
+  text-align: center;
+}
+.movie-bio {
+  margin: 10px;
+}
+
+header {
+  margin-bottom: 4px;
+  margin-top: -10px;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  background: #ed6969;
+  padding: 10px 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
