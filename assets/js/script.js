@@ -1,5 +1,8 @@
-var getMovieInfo = function () {
-  var apiUrl = "http://www.omdbapi.com/?i=tt3896198&apikey=12490b6e";
+//DOM Elements
+var searchBarEl = document.querySelector(".movie-input");
+var searchButtonEl = document.querySelector(".btn");
 
-  console.log(apiUrl);
-};
+// event Listener for search button
+searchButtonEl.addEventListener("click", function () {
+  var apiURl = "";
+});
