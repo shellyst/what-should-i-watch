@@ -53,11 +53,20 @@ body {
 .movie-type {
   font-size: 15px;
 }
+
 footer {
   padding: 40px 35px;
+  text-align: center;
+  background: #ed6969;
+  padding: 10px 5px;
+  position: fixed;
+  margin-left: -10px;
+  bottom: 0;
+  width: 100%;
   text-align: center;
 }
 /* 
 .hide {
   visibility: hidden;
 } */
+

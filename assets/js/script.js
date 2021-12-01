@@ -2,6 +2,9 @@
 var searchBarEl = document.querySelector(".movie-input");
 var searchButtonEl = document.querySelector(".btn");
 var displayedMovies = document.querySelector(".displayed-data");
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
 
 // event Listener for search button
 function displayMovies(movieName) {
@@ -15,9 +18,10 @@ function displayMovies(movieName) {
           moviesAPI(data);
         });
       } else {
-        alert("Error; Please input a valid movie/tv-show name name");
+        alert("Please enter a valid movie!");
       }
     })
+
     .catch(function (error) {
       // Notice this `.catch()` getting chained onto the end of the `.then()`
       alert("Unable to connect to OMBD API");
