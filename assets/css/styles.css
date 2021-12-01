@@ -1,6 +1,21 @@
+:root {
+  --main-font: "Fjalla One", sans-serif;
+  --body-font: "Source Sans Pro", sans-serif;
+}
+
 body {
   color: black;
 }
+
+h1,
+h2 {
+  font-family: var(--main-font);
+}
+
+p {
+  font-family: var(--body-font);
+}
+
 .container {
   text-align: center;
 }
@@ -69,4 +84,3 @@ footer {
 .hide {
   visibility: hidden;
 } */
-

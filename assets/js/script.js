@@ -8,7 +8,7 @@ var span = document.getElementsByClassName("close")[0];
 
 // event Listener for search button
 function displayMovies(movieName) {
-  var apiURl = "http://www.omdbapi.com/?s=" + movieName + "&apikey=12490b6e";
+  var apiURl = "https://www.omdbapi.com/?s=" + movieName + "&apikey=12490b6e";
   fetch(apiURl)
     .then(function (response) {
       if (response.ok) {
