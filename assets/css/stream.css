@@ -1,5 +1,18 @@
+:root {
+  --main-font: "Passion One", cursive;
+  --body-font: "Source Sans Pro", sans-serif;
+}
+
 body {
   color: black;
+}
+
+h1 {
+  font-family: var(--main-font);
+}
+
+p {
+  font-family: var(--body-font);
 }
 
 .container {
@@ -64,15 +77,23 @@ a {
   color: #702e2e;
 }
 
+header {
+  margin-bottom: 4px;
+  margin-top: -10px;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
 footer {
   background: #ed6969;
   padding: 10px 5px;
-
+  position: fixed;
+  bottom: 0;
   width: 100%;
   text-align: center;
 }
 
 /*Mobile Responsiveness*/
-@media screen {
-  
+@media screen and (max-width: 575px) {
 }
