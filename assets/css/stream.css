@@ -86,7 +86,9 @@ header {
   text-align: center;
 }
 
-footer {
+#footer-el {
+  padding: 40px 35px;
+  text-align: center;
   background: #ed6969;
   padding: 10px 5px;
   position: fixed;
@@ -94,6 +96,10 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
+}
+
+#footer-title {
+  font-size: 14px;
 }
 
 /*Mobile Responsiveness*/
