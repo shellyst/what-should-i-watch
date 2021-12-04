@@ -1,6 +1,7 @@
 //DOM Elements
 var searchBarEl = document.querySelector(".movie-input");
 var searchButtonEl = document.querySelector(".btn");
+
 var displayedMovies = document.querySelector(".displayed-data");
 var modal = document.getElementById("myModal");
 var btn = document.getElementById("myBtn");
@@ -95,3 +96,4 @@ var moviesAPI = function (data) {
   }
   searchBarEl.value = "";
 };
+

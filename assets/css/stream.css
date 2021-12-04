@@ -1,11 +1,14 @@
 :root {
+
   --main-font: "Fjalla One", sans-serif;
+
   --body-font: "Source Sans Pro", sans-serif;
 }
 
 body {
   color: black;
 }
+
 
 h1,
 h2 {
@@ -86,6 +89,7 @@ header {
   text-align: center;
 }
 
+
 #footer-el {
   padding: 40px 35px;
   text-align: center;
@@ -97,6 +101,7 @@ header {
   width: 100%;
   text-align: center;
 }
+
 
 #footer-title {
   font-size: 14px;
