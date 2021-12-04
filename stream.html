@@ -4,10 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Passion+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/stream.css" />
     <title>Where to Stream</title>
   </head>
@@ -30,55 +39,28 @@
         placeholder="Search"
         autofocus="true"
       />
-      <button type="search" id="searchBtn" class="btn">Search</button>
-    
 
-    <section id="streaming-services">
-      <h2 class="section-title primary-border"></h2>
-      <div class="flex-row">
-        <div class="services">
-          <!-- <article class="service">
-            <div class="stream-bio">
-              <h3 class="stream-name"></h3>
-             
-              </p>
-              <span class="visit-site"
-                ></span
-              >
-            </div>
-          </article>
-          <article class="service">
-            <div class="stream-bio">
-              <h3 class="stream-name"></h3>
-              
-              <p>
-              </p></br>
-              <span class="visit-site"
-                ></span
-              >
-            </div>
-          </article>
-          <article class="service">
-            <div class="stream-bio">
-              <h3 class="stream-name"></h3>
-        
-              <span class="visit-site"
-                ></span
-              >
-  
-            </div>
-            </div>
-          </article> -->
-        </div>
-      </div>
-    </section>
-    <footer>
-      <h3>🎬 Made with love by Group 5.</h3>
-      <div>&copy; 2021 Group 5</div>
-    </footer>
+      <button type="search" class="btn">Search
+        <i class="material-icons">search</i>
+      </button>
     
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-   
-    <script src="./assets/js/stream.js"></script>
-  </body>
+ <!-- The Modal -->
+ <div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Please search for a valid movie or show!</p>
+  </div>
+</div>
+</div>
+
+<div class="displayed-data"></div>
+<footer id='footer-el'>
+<h3 id='footer-title'>🎬 Made with love by Group 5</h3>
+<div>&copy; 2021 Group 5</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="./assets/js/script.js"></script>
+</body>
 </html>

@@ -1,5 +1,7 @@
 :root {
-  --main-font: "Passion One", cursive;
+
+  --main-font: "Fjalla One", sans-serif;
+
   --body-font: "Source Sans Pro", sans-serif;
 }
 
@@ -7,7 +9,9 @@ body {
   color: black;
 }
 
-h1 {
+
+h1,
+h2 {
   font-family: var(--main-font);
 }
 
@@ -85,15 +89,35 @@ header {
   text-align: center;
 }
 
-footer {
+
+#footer-el {
+  padding: 40px 35px;
+  text-align: center;
   background: #ed6969;
   padding: 10px 5px;
   position: fixed;
+  margin-left: -10px;
   bottom: 0;
   width: 100%;
   text-align: center;
 }
 
+
+#footer-title {
+  font-size: 14px;
+}
+
 /*Mobile Responsiveness*/
 @media screen and (max-width: 575px) {
+  .site-name {
+    width: 95%;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  input {
+    width: 80%;
+  }
 }
