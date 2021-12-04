@@ -90,7 +90,8 @@ footer {
   background: #ed6969;
   padding: 10px 5px;
   position: fixed;
-=======
+}
+
 .next-page {
   font-size: 20px;
   background-color: lightcoral;
@@ -129,8 +130,6 @@ footer {
   width: 100%;
   text-align: center;
 }
-=======
-
 #footer-title {
   font-size: 14px;
 }
