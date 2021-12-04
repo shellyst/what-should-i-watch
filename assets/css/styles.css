@@ -126,3 +126,29 @@ p {
   text-decoration: none;
   cursor: pointer;
 }
+
+.nomargin {
+  text-align: center;
+  padding: 0.5rem 1.2rem;
+  margin: 0.5rem;
+  width: 35%;
+  font-size: 1.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid transparent;
+  color: #030000;
+  background-color: #FAE4E2;
+}
+.searchresult {
+  text-align: center;
+  display: flex;
+  padding: 0.5rem 1.2rem;
+  margin: 0.5rem;
+  width: 35%;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid transparent;
+  outline: none;
+  color: #1A1A1A;
+  background-color: #FAE4E2;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
