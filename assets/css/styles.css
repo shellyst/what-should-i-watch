@@ -1,5 +1,4 @@
 :root {
-
   --main-font: "Fjalla One", sans-serif;
   --body-font: "Source Sans Pro", sans-serif;
 }
@@ -120,12 +119,9 @@ footer {
 }
 
 #footer-el {
-  padding: 40px 35px;
   text-align: center;
-  background: #ed6969;
   padding: 10px 5px;
   position: fixed;
-  margin-left: -10px;
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -176,13 +172,28 @@ footer {
   cursor: pointer;
 }
 
-.searchresult{
-  text-decoration: underline;
-  color: rgb(0, 174, 218);
-  padding-right: 5px;
+.nomargin {
+  text-align: center;
+  padding: 0.5rem 1.2rem;
+  margin: 0.5rem;
+  width: 35%;
+  font-size: 1.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid transparent;
+  color: #030000;
+  background-color: #fae4e2;
 }
-
-.nomargin{
-  margin:0px;
-
+.searchresult {
+  text-align: center;
+  display: flex;
+  padding: 0.5rem 1.2rem;
+  margin: 0.5rem;
+  width: 35%;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid transparent;
+  outline: none;
+  color: #1a1a1a;
+  background-color: #fae4e2;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
