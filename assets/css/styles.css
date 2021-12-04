@@ -88,7 +88,7 @@ header {
 footer {
   background: #ed6969;
   padding: 10px 5px;
-  position: fixed;
+  /* position: fixed; */
 }
 
 .next-page {
@@ -121,7 +121,7 @@ footer {
 #footer-el {
   text-align: center;
   padding: 10px 5px;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -129,10 +129,6 @@ footer {
 #footer-title {
   font-size: 14px;
 }
-/* 
-.hide {
-  visibility: hidden;
-} */
 
 .modal {
   display: none; /* Hidden by default */
