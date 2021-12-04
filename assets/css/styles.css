@@ -175,3 +175,14 @@ footer {
   text-decoration: none;
   cursor: pointer;
 }
+
+.searchresult{
+  text-decoration: underline;
+  color: rgb(0, 174, 218);
+  padding-right: 5px;
+}
+
+.nomargin{
+  margin:0px;
+
+}

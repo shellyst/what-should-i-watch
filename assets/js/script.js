@@ -54,7 +54,19 @@ function displayMovies(movieName) {
 
 searchButtonEl.addEventListener("click", function () {
   displayMovies(searchBarEl.value);
+  storesearch(searchBarEl.value);
 });
+
+function storesearch(whattostore){
+
+  localStorage.search=whattostore;
+  document.getElementById("past-search_1").innerHTML = localStorage.search;
+  document.getElementById("past-search_2").innerHTML = localStorage.search1;
+  document.getElementById("past-search_3").innerHTML = localStorage.search2;
+  localStorage.search2=localStorage.search1;
+  localStorage.search1=localStorage.search;
+ 
+}
 
 var moviesAPI = function (data) {
   displayedMovies.innerHTML = "";
