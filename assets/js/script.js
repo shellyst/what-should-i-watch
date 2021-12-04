@@ -1,6 +1,7 @@
 //DOM Elements
 var searchBarEl = document.querySelector(".movie-input");
 var searchButtonEl = document.querySelector(".btn");
+
 var displayedMovies = document.querySelector(".displayed-data");
 var modal = document.getElementById("myModal");
 var btn = document.getElementById("myBtn");
@@ -53,7 +54,19 @@ function displayMovies(movieName) {
 
 searchButtonEl.addEventListener("click", function () {
   displayMovies(searchBarEl.value);
+  storesearch(searchBarEl.value);
 });
+
+function storesearch(whattostore){
+
+  localStorage.search=whattostore;
+  document.getElementById("past-search_1").innerHTML = localStorage.search;
+  document.getElementById("past-search_2").innerHTML = localStorage.search1;
+  document.getElementById("past-search_3").innerHTML = localStorage.search2;
+  localStorage.search2=localStorage.search1;
+  localStorage.search1=localStorage.search;
+ 
+}
 
 var moviesAPI = function (data) {
   displayedMovies.innerHTML = "";
@@ -95,3 +108,4 @@ var moviesAPI = function (data) {
   }
   searchBarEl.value = "";
 };
+

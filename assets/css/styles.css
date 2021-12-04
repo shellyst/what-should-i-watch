@@ -1,4 +1,5 @@
 :root {
+
   --main-font: "Fjalla One", sans-serif;
   --body-font: "Source Sans Pro", sans-serif;
 }
@@ -42,6 +43,55 @@ p {
 .btn:hover {
   background-color: #ed6969;
 }
+
+.section-title {
+  text-align: center;
+}
+
+.img {
+  padding: 0 150px 0 150px;
+  opacity: 0.5;
+}
+
+.img:hover {
+  opacity: 1;
+}
+
+.movies {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 50% 0 50%;
+}
+
+.movie-name {
+  text-align: center;
+}
+
+.movie-type {
+  text-align: center;
+}
+
+.movie-role {
+  text-align: center;
+}
+.movie-bio {
+  margin: 10px;
+}
+
+header {
+  margin-bottom: 4px;
+  margin-top: -10px;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  background: #ed6969;
+  padding: 10px 5px;
+  position: fixed;
+}
+
 .next-page {
   font-size: 20px;
   background-color: lightcoral;
@@ -80,7 +130,6 @@ p {
   width: 100%;
   text-align: center;
 }
-
 #footer-title {
   font-size: 14px;
 }
@@ -151,4 +200,5 @@ p {
   color: #1A1A1A;
   background-color: #FAE4E2;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
 }
