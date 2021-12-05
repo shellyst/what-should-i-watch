@@ -1,14 +1,11 @@
 :root {
-
   --main-font: "Fjalla One", sans-serif;
-
   --body-font: "Source Sans Pro", sans-serif;
 }
 
 body {
   color: black;
 }
-
 
 h1,
 h2 {
@@ -31,16 +28,12 @@ p {
   font-size: 20px;
 }
 
-.stream-input {
+.movie-input {
   font-size: 20px;
   width: 20%;
 }
 
-.row {
-  display: flex;
-}
-
-.btn {
+button {
   font-size: 20px;
   background-color: lightcoral;
   border: none;
@@ -63,24 +56,6 @@ p {
   opacity: 1;
 }
 
-.services {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 0 50% 0 50%;
-}
-
-.stream-name {
-  text-align: center;
-}
-
-.stream-bio {
-  margin: 10px;
-}
-
-a {
-  color: #702e2e;
-}
-
 header {
   margin-bottom: 4px;
   margin-top: -10px;
@@ -89,35 +64,107 @@ header {
   text-align: center;
 }
 
+.next-page {
+  font-size: 20px;
+  background-color: lightcoral;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.next-page:hover {
+  background-color: #ed6969;
+}
+
+.results {
+  text-align: center;
+}
+
+.movie-name {
+  font-size: 20px;
+}
+
+.movie-year {
+  font-size: 15px;
+}
+
+.movie-type {
+  font-size: 15px;
+}
 
 #footer-el {
-  padding: 40px 35px;
   text-align: center;
-  background: #ed6969;
   padding: 10px 5px;
   position: fixed;
-  margin-left: -10px;
   bottom: 0;
   width: 100%;
   text-align: center;
 }
 
-
 #footer-title {
   font-size: 14px;
 }
 
-/*Mobile Responsiveness*/
-@media screen and (max-width: 575px) {
-  .site-name {
-    width: 95%;
-  }
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
 
-  p {
-    font-size: 15px;
-  }
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
 
-  input {
-    width: 80%;
-  }
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nomargin {
+  text-align: center;
+  padding: 0.5rem 1.2rem;
+  margin: 0.5rem;
+  width: 35%;
+  font-size: 1.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid transparent;
+  color: #030000;
+  background-color: #fae4e2;
+}
+
+.searchresult {
+  text-align: center;
+  display: flex;
+  padding: 0.5rem 1.2rem;
+  margin: 0.5rem;
+  width: 35%;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid transparent;
+  outline: none;
+  color: #1a1a1a;
+  background-color: #fae4e2;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }

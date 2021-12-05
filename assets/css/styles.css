@@ -118,6 +118,11 @@ footer {
   font-size: 15px;
 }
 
+.nextPage {
+  text-decoration: none;
+  color: white;
+}
+
 #footer-el {
   text-align: center;
   padding: 10px 5px;
@@ -126,10 +131,13 @@ footer {
   width: 100%;
   text-align: center;
 }
-
 #footer-title {
   font-size: 14px;
 }
+/* 
+.hide {
+  visibility: hidden;
+} */
 
 .modal {
   display: none; /* Hidden by default */
@@ -180,7 +188,6 @@ footer {
   color: #030000;
   background-color: #fae4e2;
 }
-
 .searchresult {
   text-align: center;
   display: flex;
