@@ -8,7 +8,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--main-font);
 }
 
@@ -26,11 +27,6 @@ p {
 
 .site-info {
   font-size: 20px;
-}
-
-.movie-input {
-  font-size: 20px;
-  width: 20%;
 }
 
 button {
@@ -79,18 +75,6 @@ header {
   text-align: center;
 }
 
-.movie-name {
-  font-size: 20px;
-}
-
-.movie-year {
-  font-size: 15px;
-}
-
-.movie-type {
-  font-size: 15px;
-}
-
 #footer-el {
   text-align: center;
   padding: 10px 5px;
@@ -116,6 +100,25 @@ header {
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.displayed-data {
+  text-align: center;
+}
+
+a {
+  color: #eb6969;
+  font-size: 15px;
+}
+
+.nextPage {
+  text-decoration: none;
+  color: white;
+  background: #26a69a;
+}
+
+.nextPage:hover {
+  background: #eb6969;
 }
 
 /* Modal Content */
