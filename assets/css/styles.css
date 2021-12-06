@@ -135,10 +135,6 @@ footer {
 #footer-title {
   font-size: 14px;
 }
-/* 
-.hide {
-  visibility: hidden;
-} */
 
 .modal {
   display: none; /* Hidden by default */
