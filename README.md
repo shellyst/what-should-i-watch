@@ -34,7 +34,7 @@ Once npm packages have been installed, user may use the application using the fo
 
 ## Preview
 
-[![image.png](https://i.postimg.cc/bw0tH87z/image.png)](https://postimg.cc/jD52RVq9)
+[![image.png](https://i.postimg.cc/mrzM7k7H/image.png)](https://postimg.cc/Z9mCST7b)
 
 ## Contributors
 
